@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# netflix-gpt
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- create react app
+- configured tailwind css
+- header
+- routing
+- login form
+- signup form
+- form validation
+- useref hook
+- firebase setup 
+- deploying our app to production
+- create signup user account
+- implement signin user api
+- created redux store with user slice
+- implemented signout
+- updated profile 
+- bug fix: sign up user displayname and profile picture update
+- if the user is not logged in redirect to /browse to login page and vice versa
+- unsubscribe to the onauthstatechanged callback
+- add hardcoded values to constant files
+- register tmdb api & create an app and get acess token
+- get data from tmdb now playing movies list api
+- cutom hook for now playing movies.
+- created movie slice
+- updated store with movies data .
+- plaining for main and seconday container
+- fetch data for trailor video
+- updated store with trailor video data 
+- embeded the youtube video and make it autoplay and mute
+- tialwwind classes to make main container look awseome
+- building secondary component
+- build movie list
+- build movie card
+- tmdb image cdn
+- made the browse page amazing with tailwind css
+- gpt search feature
+- gpt search page
+- gpt serach bar
+- (*)multi langauge feature in gpt page
+- integrate gpt apis(get )
+- gpt openai api key
+- gpt search api call
+- fetched gpt movie suggestions from tmdb
+- created gpt slice added data
+- resused movielist component 
+- adding .env file
+- adding .env file to gitignore
+- memoization
+- made out site reposnive
 
-## Available Scripts
 
-In the project directory, you can run:
+#features
 
-### `npm start`
+- browse page(after authentication)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- login/sign up page 
+ - signin/signup form 
+  - redirect to browse page 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ - Header
+ - main movie
+  - trailer in background
+   - title and description
 
-### `npm test`
+   - movie suggestion 
+    - movie list  *n of different genere -> horizonatlly scrollable
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- netflix gpt 
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ - search bar 
+ - movie recommendation/suggestion 
